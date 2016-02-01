@@ -2,7 +2,7 @@
 
 Configuración de las herramientas y tecnologías a utilizar en la asignatura Sistemas y Tecnologías Webs.
 
-* UNO MAS EN LA LISTA
+* SEGUNDA PETICION DE REVISION
 * NodeJS
 * Express
 * Atom
