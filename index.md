@@ -17,7 +17,8 @@ ___
 > 5. Utilización de Cloud9
 > 6. Utilización de Markdown
 > 7. Utilización de Pandoc
-> 8. Enlaces de interés
+> 8. Utilización de gh-pages (GitHub Pages)
+> 9. Enlaces de interés
 
 ___
 
@@ -84,7 +85,7 @@ ___
 
 GitHub es una plataforma para alojar proyectos utilizando el sistema de control de versiones **Git**. Para instalarlo accedemos a la página oficial de **GitHub** y descargamos el instalador que ejecutaremos posteriormente para iniciar el asistente de instalación.
 
-![](images/git.png)
+![](images/9.png)
 
 Una vez instalado configuramos nuestra cuenta de **GitHub** en la aplicación para poder sincronizar nuestro repositorio tanto local como remoto, en caso de no tener cuenta crearemos una en la página de **GitHub**.
 
@@ -94,11 +95,11 @@ ___
 
 Es un IDE de desarrollo online, para su uso será necesario crear una cuenta en la página oficial o acceder con las credenciales de GitHub si ya se dispone de una cuenta. Una vez registrados podremos crear proyectos de varias tecnologías como puede ser NodeJS, HTML5, C++, Ruby On Rails, etc.
 
-![](images/cloud.png)
+![](images/11.png)
 
 Si disponemos de algún proyecto en un repositorio de GitHub podremos asociarlo a **Cloud9** para trabajar en él tan solo creando un “`nuevo workspace`” y añadiendo la url *git* del correspondiente repositorio.
 
-![](images/cloud2.png)
+![](images/10.png)
 
 Además **Cloud9** permite el trabajo en equipo en el IDE añadiendo miembros a tu workspace.
 
@@ -132,7 +133,32 @@ ___
 
 ___
 
-## [8] Enlaces de interés
+## [8] GitHub Pages
+
+**¿Qué es gh-pages?:** Son páginas para ti y para tus proyectos, alojadas directamente en tu repositorio de GitHub: sólo tienes que editar, pushear y los cambios ya estarán disponibles.
+
+**¿Cómo se utiliza?:** Sólo debes seguir los siguientes pasos en el repositorio de GitHub al que quieras añadir una página:
+> 1. Creamos una rama con el nombre 'gh-pages':
+
+![](images/5.png)
+
+> 2. Crea un nuevo fichero:
+
+![](images/6.png)
+
+> 3. Llama al fichero index.html y escribe Hello World de contenido:
+
+![](images/7.png)
+
+> 4. Haz un commit para el nuevo fichero:
+
+![](images/8.png)
+
+> 5. Listo, ahora puedes acceder con la URL: 'http://tu-usuario.github.io/nombre-del-repositorio'
+
+___
+
+## [9] Enlaces de interés
 
 * 1. [NodeJS](https://nodejs.org)
 * 2. [Express](http://expressjs.com)
@@ -142,3 +168,4 @@ ___
 * 6. [Cloud 9 IDE](https://c9.io)
 * 7. [Markdown](http://daringfireball.net/projects/markdown/)
 * 8. [Pandoc](http://pandoc.org/README.html)
+* 9. [GH-Pages](https://pages.github.com/)
