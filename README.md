@@ -1,6 +1,6 @@
-## Procesadores de Lenguajes - Grado en II - Itinerario: Computación
-## Alumno: Adrián Rodríguez Bazaga (alu0100826456)
-## Práctica: Tareas Iniciales
+### Procesadores de Lenguajes - Práctica: Tareas Iniciales
+#### Alumno: Adrián Rodríguez Bazaga (alu0100826456)
+##### Grado en Ingeniería Informática - Itinerario: Computación
 
 *Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes, las cuales se enumeran a continuación:*
 
