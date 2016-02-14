@@ -1,12 +1,10 @@
-## Procesadores de Lenguajes
-## Grado en Ingeniería Informática - Itinerario: Computación
-## Asignatura: Procesadores de Lenguajes
-## Alumno: Adrián Rodríguez Bazaga (alu0100826456@ull.edu.es)
-## Grupo: L1
-## Práctica: Tareas Iniciales
+### Procesadores de Lenguajes - Práctica: Tareas Iniciales
+#### Alumno: Adrián Rodríguez Bazaga (alu0100826456)
+##### Grado en Ingeniería Informática - Itinerario: Computación - Grupo: L1
 
+___
 
-Tutorial NodeJS, Express, Atom, GitHub, Cloud9 y Markdown
+Tutorial de instalación/uso de NodeJS, Express, Atom, GitHub, Cloud9 y Markdown:
 ======================================================
 
 ## Instalación de NodeJS en Windows
