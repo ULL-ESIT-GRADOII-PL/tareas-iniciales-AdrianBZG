@@ -1,5 +1,3 @@
-<link href="style.css" rel="stylesheet"></link>
-
 ## Procesadores de Lenguajes
 ## Grado en Ingeniería Informática - Itinerario: Computación
 ## Asignatura: Procesadores de Lenguajes
