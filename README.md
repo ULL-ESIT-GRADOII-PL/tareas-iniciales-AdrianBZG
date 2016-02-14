@@ -1,6 +1,8 @@
-## Tareas Iniciales
+## Procesadores de Lenguajes - Grado en II - Itinerario: Computación
+## Alumno: Adrián Rodríguez Bazaga (alu0100826456)
+## Práctica: Tareas Iniciales
 
-Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes, las cuales se enumeran a continuación:.
+*Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes, las cuales se enumeran a continuación:*
 
 * 1) NodeJS
 * 2) Express
@@ -9,6 +11,6 @@ Configuración de las herramientas y tecnologías a utilizar en la asignatura Pr
 * 5) Cloud9
 * 6) Markdown
 
-[Página personal de prácticas](http://x.github.io/)
+[Página personal de prácticas](http://adrianbzg.github.io/)
 
-[Página de la práctica inicial](http://x.github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-AdrianBZG/)
+[Página de la práctica inicial (tareas iniciales)](http://adrianbzg.github.io/PL_Tareas-Iniciales-AdrianBZG/)
