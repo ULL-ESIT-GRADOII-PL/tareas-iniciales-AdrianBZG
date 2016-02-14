@@ -1,6 +1,6 @@
 ### Procesadores de Lenguajes - Práctica: Tareas Iniciales
 #### Alumno: Adrián Rodríguez Bazaga (alu0100826456)
-##### Grado en Ingeniería Informática - Itinerario: Computación
+##### Grado en Ingeniería Informática - Itinerario: Computación - Grupo: L1
 
 *Instalación, configuración y utilización de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes, las cuales se enumeran a continuación:*
 
