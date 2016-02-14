@@ -16,3 +16,5 @@
 [Página personal de prácticas](http://adrianbzg.github.io/)
 
 [Página de la práctica inicial (tareas iniciales)](http://adrianbzg.github.io/PL_Tareas-Iniciales-AdrianBZG/)
+
+[Mi página de g+](https://plus.google.com/u/0/108052528335325770069/)
