@@ -2,7 +2,7 @@
 #### Alumno: Adrián Rodríguez Bazaga (alu0100826456)
 ##### Grado en Ingeniería Informática - Itinerario: Computación
 
-*Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes, las cuales se enumeran a continuación:*
+*Instalación, configuración y utilización de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes, las cuales se enumeran a continuación:*
 
 * 1) NodeJS
 * 2) Express
@@ -10,6 +10,8 @@
 * 4) GitHub
 * 5) Cloud9
 * 6) Markdown
+* 7) Pandoc
+* 8) gh-pages
 
 [Página personal de prácticas](http://adrianbzg.github.io/)
 
