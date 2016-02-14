@@ -32,7 +32,19 @@ background:#e0ebeb;
 </div>
 <div id="índice" class="section level2">
 <h2>Índice:</h2>
-<p><strong>&gt; 1. Introducción</strong> <strong>&gt; 2. Instalación de NodeJS y Express</strong> <strong>&gt; 3. Instalación del editor de texto Atom</strong> <strong>&gt; 4. Instalación de GitHub Desktop (Para Windows)</strong> <strong>&gt; 5. Utilización de Cloud9</strong> <strong>&gt; 6. Utilización de Markdown</strong> <strong>&gt; 7. Utilización de Pandoc</strong> <strong>&gt; 8. Utilización de gh-pages (GitHub Pages)</strong> <strong>&gt; 9. Enlaces de interés</strong></p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Introducción</li>
+<li>Instalación de NodeJS y Express</li>
+<li>Instalación del editor de texto Atom</li>
+<li>Instalación de GitHub Desktop (Para Windows)</li>
+<li>Utilización de Cloud9</li>
+<li>Utilización de Markdown</li>
+<li>Utilización de Pandoc</li>
+<li>Utilización de gh-pages (GitHub Pages)</li>
+<li>Enlaces de interés</li>
+</ol>
+</blockquote>
 <hr />
 </div>
 <div id="introducción" class="section level2">
@@ -44,11 +56,29 @@ background:#e0ebeb;
 <h2>[2] Instalación de NodeJS y Express en Linux:</h2>
 <p><strong>¿Qué es NodeJS?:</strong> Es un intérprete <strong>Javascript</strong> del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.</p>
 <p>Para empezar a utilizarlo debemos instalarlo, para ello seguiremos los siguientes pasos:</p>
-<p><strong>&gt; 1) Abrimos una Terminal de Linux</strong> <strong>&gt; 2) Utilizamos el comando &quot;curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -&quot; para obtener el instalador de NodeJS versión 5 (la última)</strong> <strong>&gt; 3) Lo instalamos con &quot;sudo apt-get install -y nodejs&quot; (Requiere la contraseña del superusuario)</strong> <strong>&gt; 4) Opcionalmente podemos instalar las herramientas de desarrollo: &quot;sudo apt-get install -y build-essential&quot;</strong></p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Utilizamos el comando &quot;curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -&quot; para obtener el instalador de NodeJS versión 5 (la última)</li>
+<li>Lo instalamos con &quot;sudo apt-get install -y nodejs&quot; (Requiere la contraseña del superusuario)</li>
+<li>Opcionalmente podemos instalar las herramientas de desarrollo: &quot;sudo apt-get install -y build-essential&quot;</li>
+</ol>
+</blockquote>
 <p>Ya tenemos NodeJS instalado en nuestra máquina, ahora instalaremos el gestor de paquetes de NodeJS (<strong>npm</strong>):</p>
-<p><strong>&gt; 1) Abrimos una Terminal de Linux</strong> <strong>&gt; 2) Usamos el comando &quot;sudo apt-get install npm&quot;</strong></p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Usamos el comando &quot;sudo apt-get install npm&quot;</li>
+</ol>
+</blockquote>
 <p>Ahora instalaremos <strong>Express</strong>. <strong>¿Qué es Express?:</strong> Es una infraestructura web rápida, minimalista y flexible para NodeJS</p>
-<p><strong>&gt; 1) Abrimos una Terminal de Linux</strong> <strong>&gt; 2) Utilizamos npm install express --save</strong> <strong>&gt; 3) Alternativamente podemos utilizar la flag 'g' para que se instale de forma global en la máquina y esté disponible en todos los proyectos, esto sería: &quot;npm install express -g --save&quot;</strong></p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Utilizamos npm install express --save</li>
+<li>Alternativamente podemos utilizar la flag 'g' para que se instale de forma global en la máquina y esté disponible en todos los proyectos, esto sería: &quot;npm install express -g --save&quot;</li>
+</ol>
+</blockquote>
 <div class="figure">
 <img src="images/1.png" />
 </div>
@@ -64,10 +94,22 @@ background:#e0ebeb;
 <img src="images/atom1.png" />
 </div>
 <p>Usaremos <strong>Atom</strong> como editor de texto para el desarrollo de nuestros proyectos, para ello utilizaremos el <strong>PPA</strong> de <strong>webupd8team</strong>:</p>
-<p><strong>&gt; 1) Abrimos una Terminal de Linux</strong> <strong>&gt; 2) Utilizamos el comando &quot;sudo add-apt-repository ppa:webupd8team/atom&quot;</strong> <strong>&gt; 3) Utilizamos &quot;sudo apt-get update&quot;</strong> <strong>&gt; 4) Utilizamos &quot;sudo apt-get install atom&quot;</strong></p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Utilizamos el comando &quot;sudo add-apt-repository ppa:webupd8team/atom&quot;</li>
+<li>Utilizamos &quot;sudo apt-get update&quot;</li>
+<li>Utilizamos &quot;sudo apt-get install atom&quot;</li>
+</ol>
+</blockquote>
 <p><strong>¿Cómo ejecutar Atom?:</strong> Simplemente escribimos &quot;atom&quot; en la Terminal y se abrirá el editor.</p>
 <p><strong>NOTA:</strong> Dado que vamos a utilizar el formato <strong>Markdown</strong> es bueno saber que en <strong>Atom</strong> podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato <strong>GitHub Markdown</strong> con el comando:</p>
-<p><strong>&gt; * Markdown preview <code>ctrl+shift+m</code></strong> <strong>&gt; * Markdown export to HTML <code>Save As HTML</code></strong></p>
+<blockquote>
+<ul>
+<li>Markdown preview <code>ctrl+shift+m</code></li>
+<li>Markdown export to HTML <code>Save As HTML</code></li>
+</ul>
+</blockquote>
 <div class="figure">
 <img src="images/3.png" />
 </div>
@@ -105,7 +147,13 @@ background:#e0ebeb;
 <h2>[7] Pandoc</h2>
 <p><strong>¿Qué es Pandoc?:</strong> Pandoc es un traductor (o conversor) de Markdown a HTML, que nos será útil en caso de no utilizar Atom (ya que Atom nos hace esta tarea sin necesidad de instalar paquetes adicionales).Qu</p>
 <p><strong>¿Cómo se instala?:</strong> Sólo debes seguir los siguientes pasos:</p>
-<p><strong>&gt; 1. Abrimos una Terminal de Linux</strong> <strong>&gt; 2. Utilizamos el comando &quot;sudo apt-get install pandoc&quot;</strong> <strong>&gt; 3. Listo</strong></p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Utilizamos el comando &quot;sudo apt-get install pandoc&quot;</li>
+<li>Listo</li>
+</ol>
+</blockquote>
 <div class="figure">
 <img src="images/4.png" />
 </div>

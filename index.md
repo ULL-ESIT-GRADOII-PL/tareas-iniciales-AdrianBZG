@@ -10,15 +10,15 @@ ___
 Índice:
 ----------
 
-**> 1. Introducción**
-**> 2. Instalación de NodeJS y Express**
-**> 3. Instalación del editor de texto Atom**
-**> 4. Instalación de GitHub Desktop (Para Windows)**
-**> 5. Utilización de Cloud9**
-**> 6. Utilización de Markdown**
-**> 7. Utilización de Pandoc**
-**> 8. Utilización de gh-pages (GitHub Pages)**
-**> 9. Enlaces de interés**
+> 1. Introducción
+> 2. Instalación de NodeJS y Express
+> 3. Instalación del editor de texto Atom
+> 4. Instalación de GitHub Desktop (Para Windows)
+> 5. Utilización de Cloud9
+> 6. Utilización de Markdown
+> 7. Utilización de Pandoc
+> 8. Utilización de gh-pages (GitHub Pages)
+> 9. Enlaces de interés
 
 ___
 
@@ -36,22 +36,22 @@ ___
 
 Para empezar a utilizarlo debemos instalarlo, para ello seguiremos los siguientes pasos:
 
-**> 1) Abrimos una Terminal de Linux**
-**> 2) Utilizamos el comando "curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -" para obtener el instalador de NodeJS versión 5 (la última)**
-**> 3) Lo instalamos con "sudo apt-get install -y nodejs" (Requiere la contraseña del superusuario)**
-**> 4) Opcionalmente podemos instalar las herramientas de desarrollo: "sudo apt-get install -y build-essential"**
+> 1) Abrimos una Terminal de Linux
+> 2) Utilizamos el comando "curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -" para obtener el instalador de NodeJS versión 5 (la última)
+> 3) Lo instalamos con "sudo apt-get install -y nodejs" (Requiere la contraseña del superusuario)
+> 4) Opcionalmente podemos instalar las herramientas de desarrollo: "sudo apt-get install -y build-essential"
 
 Ya tenemos NodeJS instalado en nuestra máquina, ahora instalaremos el gestor de paquetes de NodeJS (**npm**):
 
-**> 1) Abrimos una Terminal de Linux**
-**> 2) Usamos el comando "sudo apt-get install npm"**
+> 1) Abrimos una Terminal de Linux
+> 2) Usamos el comando "sudo apt-get install npm"
 
 Ahora instalaremos **Express**.
 **¿Qué es Express?:** Es una infraestructura web rápida, minimalista y flexible para NodeJS
 
-**> 1) Abrimos una Terminal de Linux**
-**> 2) Utilizamos npm install express --save**
-**> 3) Alternativamente podemos utilizar la flag 'g' para que se instale de forma global en la máquina y esté disponible en todos los proyectos, esto sería: "npm install express -g --save"**
+> 1) Abrimos una Terminal de Linux
+> 2) Utilizamos npm install express --save
+> 3) Alternativamente podemos utilizar la flag 'g' para que se instale de forma global en la máquina y esté disponible en todos los proyectos, esto sería: "npm install express -g --save"
 
 ![](images/1.png)
 
@@ -68,17 +68,17 @@ ___
 
 Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos, para ello utilizaremos el **PPA** de **webupd8team**:
 
-**> 1) Abrimos una Terminal de Linux**
-**> 2) Utilizamos el comando "sudo add-apt-repository ppa:webupd8team/atom"**
-**> 3) Utilizamos "sudo apt-get update"**
-**> 4) Utilizamos "sudo apt-get install atom"**
+> 1) Abrimos una Terminal de Linux
+> 2) Utilizamos el comando "sudo add-apt-repository ppa:webupd8team/atom"
+> 3) Utilizamos "sudo apt-get update"
+> 4) Utilizamos "sudo apt-get install atom"
 
 **¿Cómo ejecutar Atom?:** Simplemente escribimos "atom" en la Terminal y se abrirá el editor.
 
 **NOTA:** Dado que vamos a utilizar el formato **Markdown** es bueno saber que en **Atom** podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato **GitHub Markdown** con el comando:
 
-**> * Markdown preview `ctrl+shift+m`**
-**> * Markdown export to HTML `Save As HTML`**
+> * Markdown preview `ctrl+shift+m`
+> * Markdown export to HTML `Save As HTML`
 
 ![](images/3.png)
 
@@ -126,9 +126,9 @@ ___
 
 **¿Cómo se instala?:** Sólo debes seguir los siguientes pasos:
 
-**> 1. Abrimos una Terminal de Linux**
-**> 2. Utilizamos el comando "sudo apt-get install pandoc"**
-**> 3. Listo**
+> 1. Abrimos una Terminal de Linux
+> 2. Utilizamos el comando "sudo apt-get install pandoc"
+> 3. Listo
 
 ![](images/4.png)
 
@@ -170,6 +170,7 @@ ___
 
 
 **> 5. Listo, ahora puedes acceder con la URL: 'http://tu-usuario.github.io/nombre-del-repositorio'**
+
 
 ___
 
