@@ -27,58 +27,92 @@ background:#e0ebeb;
 </div>
 </div>
 </div>
-<div id="tutorial-de-instalaciónuso-de-nodejs-express-atom-github-cloud9-y-markdown" class="section level2">
-<h2>[!] Tutorial de instalación/uso de NodeJS, Express, Atom, GitHub, Cloud9 y Markdown: [!]</h2>
+<div id="tutorial-de-instalaciónuso-de-nodejs-express-atom-github-cloud9-markdown-y-pandoc" class="section level2">
+<h2>[!] Tutorial de instalación/uso de NodeJS, Express, Atom, GitHub, Cloud9, Markdown y Pandoc: [!]</h2>
 </div>
 <div id="índice" class="section level2">
 <h2>Índice:</h2>
 <blockquote>
 <ol style="list-style-type: decimal">
 <li>Introducción</li>
-<li>Instalación de NodeJS</li>
+<li>Instalación de NodeJS y Express</li>
 <li>Instalación del editor de texto Atom</li>
 <li>Instalación de GitHub Desktop (Para Windows)</li>
 <li>Utilización de Cloud9</li>
 <li>Utilización de Markdown</li>
+<li>Utilización de Pandoc</li>
 <li>Enlaces de interés</li>
 </ol>
 </blockquote>
+<hr />
 </div>
 <div id="introducción" class="section level2">
 <h2>[1] Introducción:</h2>
-<p>aaa</p>
+<p>El siguiente tutorial está pensado para la plataforma <strong>Linux</strong>, especificamente utilizaré el sistema operativo <strong>Linux Ubuntu 14.04</strong>, excepto para <strong>GitHub Desktop</strong> ya que esta aplicación sólo está disponible para la plataforma <strong>Windows</strong>.</p>
+<hr />
 </div>
-<div id="instalación-de-nodejs-en-windows" class="section level2">
-<h2>[2] Instalación de NodeJS en Windows:</h2>
-<p>Es un intérprete <strong>Javascript</strong> del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.</p>
-<p>Para empezar a utilizarlo descargar el paquete de instalación para la plataforma windows y seguir los pasos del asistente de instalación de <strong>NodeJS</strong>.</p>
-<div class="figure">
-<img src="images/node.png" />
-</div>
-<p>Abrimos la consola de <strong>NodeJS</strong> y comprobamos que se ha instalado correctamente, aparecerá el siguiente mensaje que indica que se ha instalado.</p>
-<p>Instalamos el framework <strong>Express</strong> con la consola de <strong>NodeJS</strong> y el siguiente comando:</p>
-<p><strong>Comando</strong></p>
+<div id="instalación-de-nodejs-y-express-en-linux" class="section level2">
+<h2>[2] Instalación de NodeJS y Express en Linux:</h2>
+<p><strong>¿Qué es NodeJS?:</strong> Es un intérprete <strong>Javascript</strong> del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.</p>
+<p>Para empezar a utilizarlo debemos instalarlo, para ello seguiremos los siguientes pasos:</p>
 <blockquote>
-<p><code>npm install express --save</code></p>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Utilizamos el comando &quot;curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -&quot; para obtener el instalador de NodeJS versión 5 (la última)</li>
+<li>Lo instalamos con &quot;sudo apt-get install -y nodejs&quot; (Requiere la contraseña del superusuario)</li>
+<li>Opcionalmente podemos instalar las herramientas de desarrollo: &quot;sudo apt-get install -y build-essential&quot;</li>
+</ol>
+</blockquote>
+<p>Ya tenemos NodeJS instalado en nuestra máquina, ahora instalaremos el gestor de paquetes de NodeJS (<strong>npm</strong>):</p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Usamos el comando &quot;sudo apt-get install npm&quot;</li>
+</ol>
+</blockquote>
+<p>Ahora instalaremos <strong>Express</strong>. <strong>¿Qué es Express?:</strong> Es una infraestructura web rápida, minimalista y flexible para NodeJS</p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Utilizamos npm install express --save</li>
+<li>Alternativamente podemos utilizar la flag 'g' para que se instale de forma global en la máquina y esté disponible en todos los proyectos, esto sería: &quot;npm install express -g --save&quot;</li>
+</ol>
 </blockquote>
 <div class="figure">
-<img src="images/node2.png" />
+<img src="images/1.png" />
 </div>
+<p><strong>¿Cómo ejecutar NodeJS?:</strong> Esto es muy sencillo, sólo debemos escribir &quot;nodejs&quot; en la Terminal de Linux, también podemos pasarle como parámetro un fichero JS que será ejecutado como servidor, es decir: &quot;nodejs fichero.js&quot;</p>
+<div class="figure">
+<img src="images/2.png" />
+</div>
+<hr />
 </div>
 <div id="instalación-del-editor-de-texto-atom" class="section level2">
 <h2>[3] Instalación del editor de texto Atom</h2>
-<p>Usaremos <strong>Atom</strong> como editor de texto para el desarrollo de nuestros proyectos, para ello descargamos el instalador en la página oficial de atom, y a continuación ejecutamos el asistente de instalación.</p>
 <div class="figure">
 <img src="images/atom1.png" />
 </div>
-<p>Dado que vamos a utilizar el formato <strong>Markdown</strong> es bueno saber que en <strong>Atom</strong> podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato <strong>GitHub Markdown</strong> con el comando:</p>
-<p><strong>Comando</strong></p>
+<p>Usaremos <strong>Atom</strong> como editor de texto para el desarrollo de nuestros proyectos, para ello utilizaremos el <strong>PPA</strong> de <strong>webupd8team</strong>:</p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>Abrimos una Terminal de Linux</li>
+<li>Utilizamos el comando &quot;sudo add-apt-repository ppa:webupd8team/atom&quot;</li>
+<li>Utilizamos &quot;sudo apt-get update&quot;</li>
+<li>Utilizamos &quot;sudo apt-get install atom&quot;</li>
+</ol>
+</blockquote>
+<p><strong>¿Cómo ejecutar Atom?:</strong> Simplemente escribimos &quot;atom&quot; en la Terminal y se abrirá el editor.</p>
+<p><strong>NOTA:</strong> Dado que vamos a utilizar el formato <strong>Markdown</strong> es bueno saber que en <strong>Atom</strong> podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato <strong>GitHub Markdown</strong> con el comando:</p>
 <blockquote>
 <ul>
 <li>Markdown preview <code>ctrl+shift+m</code></li>
 <li>Markdown export to HTML <code>Save As HTML</code></li>
 </ul>
 </blockquote>
+<div class="figure">
+<img src="images/3.png" />
+</div>
+<hr />
 </div>
 <div id="instalación-de-github-desktop" class="section level2">
 <h2>[4] Instalación de GitHub Desktop</h2>
@@ -87,6 +121,7 @@ background:#e0ebeb;
 <img src="images/git.png" />
 </div>
 <p>Una vez instalado configuramos nuestra cuenta de <strong>GitHub</strong> en la aplicación para poder sincronizar nuestro repositorio tanto local como remoto, en caso de no tener cuenta crearemos una en la página de <strong>GitHub</strong>.</p>
+<hr />
 </div>
 <div id="cloud-9" class="section level2">
 <h2>[5] Cloud 9</h2>
@@ -99,33 +134,26 @@ background:#e0ebeb;
 <img src="images/cloud2.png" />
 </div>
 <p>Además <strong>Cloud9</strong> permite el trabajo en equipo en el IDE añadiendo miembros a tu workspace.</p>
+<hr />
 </div>
 <div id="markdown" class="section level2">
 <h2>[6] Markdown</h2>
-<p>Markdown es un lenguaje de marcado ligero, lo vamos a utilizar en el editor de texto Atom ya que incorpora por defecto este formato y podremos obtener un live preview mientras vamos desarrollando además de poder exportarlo a HTML sin la necesidad de usar un conversor adicional.</p>
-<p>Sintaxis:</p>
-<p>Encabezados</p>
-<pre><code># Encabezado H1
-## Encabezado H2
-### Encabezado H3</code></pre>
-<p>Tipografía</p>
-<pre><code>**Negrita**
-*Cursiva*
-&gt; Citas
-Parrafo separar por lineas en blanco
-`Codigo`</code></pre>
-<p>Recursos</p>
-<pre><code>![Texto imagen](url-imagen)
-* [Links](https://example.com)</code></pre>
-<p>Listas</p>
-<pre><code>1. Lista 1
-2. Lista 2
-
-* Lista 1
-* Lista 2</code></pre>
+<p>Markdown es un lenguaje de marcado ligero, lo vamos a utilizar en el editor de texto <strong>Atom</strong> ya que incorpora por defecto este formato y podremos obtener un live preview mientras vamos desarrollando además de poder exportarlo a HTML sin la necesidad de usar un conversor adicional.</p>
+<p><strong>¿Cuál es la sintáxis de Markdown?:</strong> Recomiendo acceder a <a href="http://assemble.io/docs/Cheatsheet-Markdown.html">este Cheatsheet de Markdown</a> donde encontrarás toda la información relativa a Markdown (sintáxis...etc.) con ejemplos y bien clarito.</p>
+<hr />
+</div>
+<div id="pandoc" class="section level2">
+<h2>[7] Pandoc</h2>
+<p><strong>¿Qué es Pandoc?:</strong> Pandoc es un traductor (o conversor) de Markdown a HTML, que nos será útil en caso de no utilizar Atom (ya que Atom nos hace esta tarea sin necesidad de instalar paquetes adicionales).Qu</p>
+<p><strong>¿Cómo se instala?:</strong> Sólo debes seguir los siguientes pasos: &gt; 1. Abrimos una Terminal de Linux &gt; 2. Utilizamos el comando &quot;sudo apt-get install pandoc&quot; &gt; 3. Listo</p>
+<div class="figure">
+<img src="images/4.png" />
+</div>
+<p><strong>¿Algún Tip para utilizarlo si quiero pasar de Markdown a HTML?:</strong> Antes de nada te recomienda que visites <a href="http://pandoc.org/README.html">esta página</a> donde encontrarás todo lo relativo a Pandoc (parámetros...etc.). Por ejemplo, para pasar de Markdown a HTML puedes utilizar el comando &quot;pandoc index.md -f markdown -t html -s -o index.html&quot; <strong>Explicación de los parámetros que he utilizado para Pandoc en el comando anterior:</strong> &gt; -f: Formato de entrada &gt; -t: Formato de salida &gt; -s: Le pido que me añada la estructura básica del formato de salida (en este caso HTML: sería el body...etc.) &gt; -o: Nombre del fichero de salida</p>
+<hr />
 </div>
 <div id="enlaces-de-interés" class="section level2">
-<h2>[7] Enlaces de interés</h2>
+<h2>[8] Enlaces de interés</h2>
 <ul>
 <li><ol style="list-style-type: decimal">
 <li><a href="https://nodejs.org">NodeJS</a></li>
