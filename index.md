@@ -133,8 +133,10 @@ ___
 ![](images/4.png)
 
 
-**¿Algún Tip para utilizarlo si quiero pasar de Markdown a HTML?:** Antes de nada te recomienda que visites [esta página](http://pandoc.org/README.html) donde encontrarás todo lo relativo a Pandoc (parámetros...etc.). Por ejemplo, para pasar de Markdown a HTML puedes utilizar el comando "pandoc index.md -f markdown -t html -s -o index.html"
+**¿Algún Tip para utilizarlo si quiero pasar de Markdown a HTML?:** Antes de nada te recomienda que visites [esta página](http://pandoc.org/README.html) donde encontrarás todo lo relativo a Pandoc (parámetros...etc.). Por ejemplo, para pasar de Markdown a HTML puedes utilizar el comando 'pandoc index.md -f markdown -t html -s -o index.html'
+
 **Explicación de los parámetros que he utilizado para Pandoc en el comando anterior:**
+
 > -f: Formato de entrada
 > -t: Formato de salida
 > -s: Le pido que me añada la estructura básica del formato de salida (en este caso HTML: sería el body...etc.)
