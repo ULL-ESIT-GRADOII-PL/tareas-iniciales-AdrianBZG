@@ -68,10 +68,12 @@ ___
 
 Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos, para ello utilizaremos el **PPA** de **webupd8team**:
 
+``` bash
 > 1) Abrimos una Terminal de Linux
 > 2) Utilizamos el comando "sudo add-apt-repository ppa:webupd8team/atom"
 > 3) Utilizamos "sudo apt-get update"
 > 4) Utilizamos "sudo apt-get install atom"
+```
 
 **¿Cómo ejecutar Atom?:** Simplemente escribimos "atom" en la Terminal y se abrirá el editor.
 
