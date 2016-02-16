@@ -75,29 +75,17 @@ background:#e0ebeb;
 <h2>[2] Instalación de NodeJS y Express en Linux:</h2>
 <p><strong>¿Qué es NodeJS?:</strong> Es un intérprete <strong>Javascript</strong> del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.</p>
 <p>Para empezar a utilizarlo debemos instalarlo, para ello seguiremos los siguientes pasos:</p>
-<blockquote>
-<ol style="list-style-type: decimal">
-<li>Abrimos una Terminal de Linux</li>
-<li>Utilizamos el comando &quot;curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -&quot; para obtener el instalador de NodeJS versión 5 (la última)</li>
-<li>Lo instalamos con &quot;sudo apt-get install -y nodejs&quot; (Requiere la contraseña del superusuario)</li>
-<li>Opcionalmente podemos instalar las herramientas de desarrollo: &quot;sudo apt-get install -y build-essential&quot;</li>
-</ol>
-</blockquote>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">&gt;</span> <span class="kw">1</span>) <span class="kw">Abrimos</span> una Terminal de Linux
+<span class="kw">&gt;</span> <span class="kw">2</span>) <span class="kw">Utilizamos</span> el comando <span class="st">&quot;curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -&quot;</span> para obtener el instalador de NodeJS versión 5 (la última)
+<span class="kw">&gt;</span> <span class="kw">3</span>) <span class="kw">Lo</span> instalamos con <span class="st">&quot;sudo apt-get install -y nodejs&quot;</span> (Requiere la contraseña del superusuario)
+<span class="kw">&gt;</span> <span class="kw">4</span>) <span class="kw">Opcionalmente</span> podemos instalar las herramientas de desarrollo: <span class="st">&quot;sudo apt-get install -y build-essential&quot;</span></code></pre>
 <p>Ya tenemos NodeJS instalado en nuestra máquina, ahora instalaremos el gestor de paquetes de NodeJS (<strong>npm</strong>):</p>
-<blockquote>
-<ol style="list-style-type: decimal">
-<li>Abrimos una Terminal de Linux</li>
-<li>Usamos el comando &quot;sudo apt-get install npm&quot;</li>
-</ol>
-</blockquote>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">&gt;</span> <span class="kw">1</span>) <span class="kw">Abrimos</span> una Terminal de Linux
+<span class="kw">&gt;</span> <span class="kw">2</span>) <span class="kw">Usamos</span> el comando <span class="st">&quot;sudo apt-get install npm&quot;</span></code></pre>
 <p>Ahora instalaremos <strong>Express</strong>. <strong>¿Qué es Express?:</strong> Es una infraestructura web rápida, minimalista y flexible para NodeJS</p>
-<blockquote>
-<ol style="list-style-type: decimal">
-<li>Abrimos una Terminal de Linux</li>
-<li>Utilizamos npm install express --save</li>
-<li>Alternativamente podemos utilizar la flag 'g' para que se instale de forma global en la máquina y esté disponible en todos los proyectos, esto sería: &quot;npm install express -g --save&quot;</li>
-</ol>
-</blockquote>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">&gt;</span> <span class="kw">1</span>) <span class="kw">Abrimos</span> una Terminal de Linux
+<span class="kw">&gt;</span> <span class="kw">2</span>) <span class="kw">Utilizamos</span> npm install express --save
+<span class="kw">&gt;</span> <span class="kw">3</span>) <span class="kw">Alternativamente</span> podemos utilizar la flag <span class="st">&#39;g&#39;</span> para que se instale de forma global en la máquina y esté disponible en todos los proyectos, esto sería: <span class="st">&quot;npm install express -g --save&quot;</span></code></pre>
 <div class="figure">
 <img src="images/1.png" />
 </div>
@@ -119,12 +107,8 @@ background:#e0ebeb;
 <span class="kw">&gt;</span> <span class="kw">4</span>) <span class="kw">Utilizamos</span> <span class="st">&quot;sudo apt-get install atom&quot;</span></code></pre>
 <p><strong>¿Cómo ejecutar Atom?:</strong> Simplemente escribimos &quot;atom&quot; en la Terminal y se abrirá el editor.</p>
 <p><strong>NOTA:</strong> Dado que vamos a utilizar el formato <strong>Markdown</strong> es bueno saber que en <strong>Atom</strong> podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato <strong>GitHub Markdown</strong> con el comando:</p>
-<blockquote>
-<ul>
-<li>Markdown preview <code>ctrl+shift+m</code></li>
-<li>Markdown export to HTML <code>Save As HTML</code></li>
-</ul>
-</blockquote>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">&gt;</span> <span class="kw">*</span> Markdown preview <span class="kw">`ctrl+shift+m`</span>
+<span class="kw">&gt;</span> <span class="kw">*</span> Markdown export to HTML <span class="kw">`Save</span> As HTML<span class="kw">`</span></code></pre>
 <div class="figure">
 <img src="images/3.png" />
 </div>
@@ -162,21 +146,18 @@ background:#e0ebeb;
 <h2>[7] Pandoc</h2>
 <p><strong>¿Qué es Pandoc?:</strong> Pandoc es un traductor (o conversor) de Markdown a HTML, que nos será útil en caso de no utilizar Atom (ya que Atom nos hace esta tarea sin necesidad de instalar paquetes adicionales).Qu</p>
 <p><strong>¿Cómo se instala?:</strong> Sólo debes seguir los siguientes pasos:</p>
-<blockquote>
-<ol style="list-style-type: decimal">
-<li>Abrimos una Terminal de Linux</li>
-<li>Utilizamos el comando &quot;sudo apt-get install pandoc&quot;</li>
-<li>Listo</li>
-</ol>
-</blockquote>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">&gt;</span> <span class="kw">1.</span> Abrimos una Terminal de Linux
+<span class="kw">&gt;</span> <span class="kw">2.</span> Utilizamos el comando <span class="st">&quot;sudo apt-get install pandoc&quot;</span>
+<span class="kw">&gt;</span> <span class="kw">3.</span> Listo</code></pre>
 <div class="figure">
 <img src="images/4.png" />
 </div>
 <p><strong>¿Algún Tip para utilizarlo si quiero pasar de Markdown a HTML?:</strong> Antes de nada te recomienda que visites <a href="http://pandoc.org/README.html">esta página</a> donde encontrarás todo lo relativo a Pandoc (parámetros...etc.). Por ejemplo, para pasar de Markdown a HTML puedes utilizar el comando 'pandoc index.md -f markdown -t html -s -o index.html'</p>
 <p><strong>Explicación de los parámetros que he utilizado para Pandoc en el comando anterior:</strong></p>
-<blockquote>
-<p>-f: Formato de entrada -t: Formato de salida -s: Le pido que me añada la estructura básica del formato de salida (en este caso HTML: sería el body...etc.) -o: Nombre del fichero de salida</p>
-</blockquote>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">&gt;</span> <span class="kw">-f</span>: Formato de entrada
+<span class="kw">&gt;</span> <span class="kw">-t</span>: Formato de salida
+<span class="kw">&gt;</span> <span class="kw">-s</span>: Le pido que me añada la estructura básica del formato de salida (en este caso HTML: sería el body...etc.)
+<span class="kw">&gt;</span> <span class="kw">-o</span>: Nombre del fichero de salida</code></pre>
 <hr />
 </div>
 <div id="github-pages" class="section level2">
