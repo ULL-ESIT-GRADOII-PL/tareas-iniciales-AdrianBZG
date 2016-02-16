@@ -36,22 +36,28 @@ ___
 
 Para empezar a utilizarlo debemos instalarlo, para ello seguiremos los siguientes pasos:
 
+``` bash
 > 1) Abrimos una Terminal de Linux
 > 2) Utilizamos el comando "curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -" para obtener el instalador de NodeJS versión 5 (la última)
 > 3) Lo instalamos con "sudo apt-get install -y nodejs" (Requiere la contraseña del superusuario)
 > 4) Opcionalmente podemos instalar las herramientas de desarrollo: "sudo apt-get install -y build-essential"
+```
 
 Ya tenemos NodeJS instalado en nuestra máquina, ahora instalaremos el gestor de paquetes de NodeJS (**npm**):
 
+``` bash
 > 1) Abrimos una Terminal de Linux
 > 2) Usamos el comando "sudo apt-get install npm"
+```
 
 Ahora instalaremos **Express**.
 **¿Qué es Express?:** Es una infraestructura web rápida, minimalista y flexible para NodeJS
 
+``` bash
 > 1) Abrimos una Terminal de Linux
 > 2) Utilizamos npm install express --save
 > 3) Alternativamente podemos utilizar la flag 'g' para que se instale de forma global en la máquina y esté disponible en todos los proyectos, esto sería: "npm install express -g --save"
+```
 
 ![](images/1.png)
 
@@ -79,8 +85,10 @@ Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos,
 
 **NOTA:** Dado que vamos a utilizar el formato **Markdown** es bueno saber que en **Atom** podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato **GitHub Markdown** con el comando:
 
+``` bash
 > * Markdown preview `ctrl+shift+m`
 > * Markdown export to HTML `Save As HTML`
+```
 
 ![](images/3.png)
 
@@ -128,9 +136,11 @@ ___
 
 **¿Cómo se instala?:** Sólo debes seguir los siguientes pasos:
 
+``` bash
 > 1. Abrimos una Terminal de Linux
 > 2. Utilizamos el comando "sudo apt-get install pandoc"
 > 3. Listo
+```
 
 ![](images/4.png)
 
@@ -139,10 +149,12 @@ ___
 
 **Explicación de los parámetros que he utilizado para Pandoc en el comando anterior:**
 
+``` bash
 > -f: Formato de entrada
 > -t: Formato de salida
 > -s: Le pido que me añada la estructura básica del formato de salida (en este caso HTML: sería el body...etc.)
 > -o: Nombre del fichero de salida
+```
 
 ___
 
