@@ -6,6 +6,25 @@
   <meta name="generator" content="pandoc" />
   <title>PL - Tareas Iniciales - AdrianBZG - </title>
   <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
 </head>
 <body>
 <style type='text/css'>
@@ -94,14 +113,10 @@ background:#e0ebeb;
 <img src="images/atom1.png" />
 </div>
 <p>Usaremos <strong>Atom</strong> como editor de texto para el desarrollo de nuestros proyectos, para ello utilizaremos el <strong>PPA</strong> de <strong>webupd8team</strong>:</p>
-<blockquote>
-<ol style="list-style-type: decimal">
-<li>Abrimos una Terminal de Linux</li>
-<li>Utilizamos el comando &quot;sudo add-apt-repository ppa:webupd8team/atom&quot;</li>
-<li>Utilizamos &quot;sudo apt-get update&quot;</li>
-<li>Utilizamos &quot;sudo apt-get install atom&quot;</li>
-</ol>
-</blockquote>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">&gt;</span> <span class="kw">1</span>) <span class="kw">Abrimos</span> una Terminal de Linux
+<span class="kw">&gt;</span> <span class="kw">2</span>) <span class="kw">Utilizamos</span> el comando <span class="st">&quot;sudo add-apt-repository ppa:webupd8team/atom&quot;</span>
+<span class="kw">&gt;</span> <span class="kw">3</span>) <span class="kw">Utilizamos</span> <span class="st">&quot;sudo apt-get update&quot;</span>
+<span class="kw">&gt;</span> <span class="kw">4</span>) <span class="kw">Utilizamos</span> <span class="st">&quot;sudo apt-get install atom&quot;</span></code></pre>
 <p><strong>¿Cómo ejecutar Atom?:</strong> Simplemente escribimos &quot;atom&quot; en la Terminal y se abrirá el editor.</p>
 <p><strong>NOTA:</strong> Dado que vamos a utilizar el formato <strong>Markdown</strong> es bueno saber que en <strong>Atom</strong> podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato <strong>GitHub Markdown</strong> con el comando:</p>
 <blockquote>
@@ -157,7 +172,11 @@ background:#e0ebeb;
 <div class="figure">
 <img src="images/4.png" />
 </div>
-<p><strong>¿Algún Tip para utilizarlo si quiero pasar de Markdown a HTML?:</strong> Antes de nada te recomienda que visites <a href="http://pandoc.org/README.html">esta página</a> donde encontrarás todo lo relativo a Pandoc (parámetros...etc.). Por ejemplo, para pasar de Markdown a HTML puedes utilizar el comando &quot;pandoc index.md -f markdown -t html -s -o index.html&quot; <strong>Explicación de los parámetros que he utilizado para Pandoc en el comando anterior:</strong> &gt; -f: Formato de entrada &gt; -t: Formato de salida &gt; -s: Le pido que me añada la estructura básica del formato de salida (en este caso HTML: sería el body...etc.) &gt; -o: Nombre del fichero de salida</p>
+<p><strong>¿Algún Tip para utilizarlo si quiero pasar de Markdown a HTML?:</strong> Antes de nada te recomienda que visites <a href="http://pandoc.org/README.html">esta página</a> donde encontrarás todo lo relativo a Pandoc (parámetros...etc.). Por ejemplo, para pasar de Markdown a HTML puedes utilizar el comando 'pandoc index.md -f markdown -t html -s -o index.html'</p>
+<p><strong>Explicación de los parámetros que he utilizado para Pandoc en el comando anterior:</strong></p>
+<blockquote>
+<p>-f: Formato de entrada -t: Formato de salida -s: Le pido que me añada la estructura básica del formato de salida (en este caso HTML: sería el body...etc.) -o: Nombre del fichero de salida</p>
+</blockquote>
 <hr />
 </div>
 <div id="github-pages" class="section level2">
