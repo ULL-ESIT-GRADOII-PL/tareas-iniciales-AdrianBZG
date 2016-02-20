@@ -18,3 +18,5 @@
 [Página de la práctica inicial (tareas iniciales)](http://adrianbzg.github.io/PL_Tareas-Iniciales-AdrianBZG/)
 
 [Mi página de g+](https://plus.google.com/u/0/108052528335325770069/)
+
+[Página de la asignatura](https://campusvirtual.ull.es/1516/course/view.php?id=178)
