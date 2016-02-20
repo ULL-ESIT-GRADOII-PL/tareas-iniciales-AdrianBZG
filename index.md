@@ -17,8 +17,9 @@ ___
 > 5. Utilización de Cloud9
 > 6. Utilización de Markdown
 > 7. Utilización de Pandoc
-> 8. Utilización de gh-pages (GitHub Pages)
-> 9. Enlaces de interés
+> 8. Sobre Kramdown
+> 9. Utilización de gh-pages (GitHub Pages)
+> 10. Enlaces de interés
 
 ___
 
@@ -158,8 +159,16 @@ ___
 
 ___
 
+## [8] Kramdown
 
-## [8] GitHub Pages
+**Kramdown** es otro traductor de Markdown a otro lenguaje como **Pandoc** escrito en Ruby, no pasaré a explicarlo ya que yo utilizo **Pandoc**.
+
+Enlace a Kramdown: [Clic aquí...](http://kramdown.gettalong.org/)
+
+___
+
+
+## [9] GitHub Pages
 
 **¿Qué es gh-pages?:** Son páginas para ti y para tus proyectos, alojadas directamente en tu repositorio de GitHub: sólo tienes que editar, pushear y los cambios ya estarán disponibles.
 
@@ -191,7 +200,7 @@ ___
 ___
 
 
-## [9] Enlaces de interés
+## [10] Enlaces de interés
 
 * 1. [NodeJS](https://nodejs.org)
 * 2. [Express](http://expressjs.com)
