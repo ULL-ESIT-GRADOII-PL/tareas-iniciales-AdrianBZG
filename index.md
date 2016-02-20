@@ -4,7 +4,7 @@
 
 ___
 
-[!] Tutorial de instalación/uso de NodeJS, Express, Atom, GitHub, Cloud9, Markdown, Pandoc y gh-pages: [!]
+[!]Tutorial de instalación/uso de NodeJS, Express, Atom, GitHub, Cloud9, Markdown, Pandoc y gh-pages:[!]
 --------------------------------------------------------------------------------
 
 Índice:
