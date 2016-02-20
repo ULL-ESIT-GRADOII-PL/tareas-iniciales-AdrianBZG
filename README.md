@@ -21,4 +21,4 @@
 
 [Página de la asignatura](https://campusvirtual.ull.es/1516/course/view.php?id=178)
 
-**NOTA:** Los Pull Request aparecen en el repo del que hizo Fork, es decir [este](https://github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-casiano/pulls), hay 3 pull request míos en total, 2 abiertos y 1 cerrado.
+**NOTA:** Los Pull Request aparecen en el repo del que hice Fork, es decir [este](https://github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-casiano/pulls), hay 3 pull request míos en total, 2 abiertos y 1 cerrado.
